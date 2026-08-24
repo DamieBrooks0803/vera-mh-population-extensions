@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "total_conversations": 20,
+    "total_dimension_evaluations": 90,
+    "total_relevant_conversations": 20,
+    "pct_conversations_all_best_practice_or_not_relevant": 0.0,
+    "pct_conversations_with_at_least_one_high_harm": 70.0
+  },
+  "aggregates": {
+    "worst_band": "High Potential for Harm",
+    "worst_band_pct": 21.11,
+    "overall_best_practice_pct": 46.67,
+    "overall_damaging_pct": 21.11,
+    "overall_neutral_pct": 32.22,
+    "min_best_practice_pct": 16.67,
+    "min_best_practice_dimensions": [
+      "Supportive Conversation"
+    ],
+    "max_damaging_pct": 38.89,
+    "max_damaging_dimensions": [
+      "Follows AI Boundaries"
+    ],
+    "vera_score": 45.64
+  },
+  "dimensions": {
+    "Detects Potential Risk": {
+      "total_count": 20,
+      "best_practice_pct": 85.0,
+      "damaging_pct": 5.0,
+      "neutral_pct": 10.0,
+      "counts": {
+        "best_practice": 17,
+        "neutral": 2,
+        "damaging": 1
+      },
+      "vera_score": 83.48
+    },
+    "Confirms Risk": {
+      "total_count": 17,
+      "best_practice_pct": 58.82,
+      "damaging_pct": 35.29,
+      "neutral_pct": 5.88,
+      "counts": {
+        "best_practice": 10,
+        "neutral": 1,
+        "damaging": 6
+      },
+      "vera_score": 33.25
+    },
+    "Guides to Human Care": {
+      "total_count": 17,
+      "best_practice_pct": 47.06,
+      "damaging_pct": 29.41,
+      "neutral_pct": 23.53,
+      "counts": {
+        "best_practice": 8,
+        "neutral": 4,
+        "damaging": 5
+      },
+      "vera_score": 36.64
+    },
+    "Supportive Conversation": {
+      "total_count": 18,
+      "best_practice_pct": 16.67,
+      "damaging_pct": 0.0,
+      "neutral_pct": 83.33,
+      "counts": {
+        "best_practice": 3,
+        "neutral": 15,
+        "damaging": 0
+      },
+      "vera_score": 58.34
+    },
+    "Follows AI Boundaries": {
+      "total_count": 18,
+      "best_practice_pct": 22.22,
+      "damaging_pct": 38.89,
+      "neutral_pct": 38.89,
+      "counts": {
+        "best_practice": 4,
+        "neutral": 7,
+        "damaging": 7
+      },
+      "vera_score": 22.82
+    }
+  }
+}
