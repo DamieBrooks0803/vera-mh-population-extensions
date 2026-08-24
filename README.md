@@ -121,7 +121,7 @@ working with that population would. A full analysis of this case will be publish
 This is an early-stage, independent research project, and some choices reflect the constraints of a
 solo researcher working outside an institution, not settled conclusions.
 
-- **Single run per model.** Each model was evaluated once per persona in this dataset. LLM outputs are
+- **Single run per frontier model.** Each frontier model was evaluated once per persona in this dataset. LLM outputs are
   stochastic, so single-run results should be read as indicative, not definitive. Multi-run reliability
   testing is planned as follow-on work.
 - **Twenty personas.** The persona set covers a deliberately wide range of risk levels, disclosure
